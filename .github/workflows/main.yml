@@ -47,4 +47,4 @@ jobs:
         run: npm install -g surge
         
       - name: deploying on surge
-        run: surge ./ build http://timer-app-tdd-by-bilal.surge.sh/ --token ${{ secrets.IMER_APP_TOKEN }}
+        run: surge ./build http://timer-app-tdd-by-bilal.surge.sh/ --token ${{ secrets.TIMER_APP_TOKEN }}
